@@ -5,8 +5,10 @@ WIFI密码查看器
   从/data/misc/wifi/wpa_supplicant.conf文件中读取WIFI密码，需要root权限  
     
 #使用方法  
-#####添加仓库，添加依赖
-#####提供方法  
+#####1    
+  添加仓库 ```maven { url "https://jitpack.io" }```  
+  添加依赖 ```compile 'com.github.xuanu:Android-Wifi-See:0.0.1'```  
+#####提供方法    
 
 ```
 ShellUtils.checkRootPermission();//检查有无root权限
